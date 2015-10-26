@@ -12,7 +12,7 @@ namespace LinqFilter
         {
             int[] Student = { 1, 2, 3, 4, 5, 10, 20, 40 };
             var select = from st in Student where st > 10 select st;
-
+            //comment added for car
             foreach( var a in select)
             {
                 System.Console.WriteLine(a);
